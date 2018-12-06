@@ -2,14 +2,14 @@
 
 > Docker image with useful basics for `Go` projects.
 
-### Components
+## Components
 
 - `aws-cli/1.16.70 Python/2.7.15 Linux/4.9.125-linuxkit botocore/1.12.60`
 - `Code Climate Test Reporter 0.6.3`
 - `Docker version 18.06.1-ce, build e68fc7a`
 - `go version go1.11.2 linux/amd64`
 
-#### Packages
+### Packages
 
 - `github.com/github/hub`
 - `github.com/golang/dep`
@@ -18,9 +18,9 @@
 - `github.com/onsi/gomega`
 - `golang.org/x/lint/golint`
 
-### Usage
+## Usage
 
-#### General
+### General
 
 ```Dockerfile
 # Dockerfile
@@ -28,7 +28,7 @@
 FROM sbstjn/go
 ```
 
-#### CircleCI
+### CircleCI
 
 ```yaml
 jobs:
@@ -38,7 +38,7 @@ jobs:
       - image: sbstjn/go
 ```
 
-### Development
+## Development
 
 ```bash
 # Clone repository
@@ -55,7 +55,7 @@ $ > docker build .
 $ > docker run -it --entrypoint /bin/bash <container-id>
 ```
 
-### License
+## License
 
 Feel free to use the code, it's released using the [MIT license](LICENSE.md).
 
