@@ -1,6 +1,6 @@
 # sbstjn/go [![Docker Stars](https://img.shields.io/docker/stars/sbstjn/go.svg?maxAge=600)](https://hub.docker.com/r/sbstjn/go/) [![Docker Pulls](https://img.shields.io/docker/pulls/sbstjn/go.svg?maxAge=600)](https://hub.docker.com/r/sbstjn/go/)
 
-> Docker image with useful basics for `Go` projects.
+> Docker image with useful tools for `Go` projects. Works fine in CircleCI and GitLab CI.
 
 ## Components
 
