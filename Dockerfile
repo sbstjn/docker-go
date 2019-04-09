@@ -2,7 +2,7 @@ FROM golang:1-alpine
 
 RUN apk add --update jq curl make bash \
   libc6-compat gcc musl-dev libffi-dev openssl-dev git py-pip ca-certificates openssl
-RUN pip install awscli git+https://github.com/japsu/emrichen.git
+RUN pip install awscli
 
 ENV DOCKER_VERSION "18.06.1-ce"
 RUN wget -q -P /tmp https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz \
