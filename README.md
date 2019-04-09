@@ -13,9 +13,11 @@
 
 - `github.com/github/hub`
 - `github.com/golang/dep`
+- `github.com/golangci/golangci-lint/`
 - `github.com/mattn/goveralls`
 - `github.com/onsi/ginkgo/ginkgo`
 - `github.com/onsi/gomega`
+- `github.com/swaggo/swag`
 - `golang.org/x/lint/golint`
 
 ## Usage
