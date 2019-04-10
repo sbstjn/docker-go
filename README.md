@@ -5,6 +5,7 @@
 ## Components
 
 - `aws-cli/1.16.70 Python/2.7.15 Linux/4.9.125-linuxkit botocore/1.12.60`
+- `cfn-lint 0.18.1`
 - `Code Climate Test Reporter 0.6.3`
 - `Docker version 18.06.1-ce, build e68fc7a`
 - `go version go1.11.2 linux/amd64`
