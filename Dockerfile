@@ -1,8 +1,26 @@
 FROM golang:1-alpine
 
-RUN apk add --update jq curl make bash \
-  libc6-compat gcc musl-dev libffi-dev openssl-dev git py-pip ca-certificates openssl
+RUN apk add --update \
+  bash \
+  build-base \
+  ca-certificates \
+  curl \
+  gcc \
+  git \
+  jq \
+  libc6-compat \
+  libffi-dev \
+  libffi-dev \
+  libxml2-dev \
+  libxslt-dev \
+  make \
+  musl-dev \
+  openssl \
+  openssl-dev \
+  py-pip \
+  python2-dev
 
+RUN pip install --upgrade pip
 RUN pip install awscli
 RUN pip install cfn-lint
 RUN pip install awscurl
