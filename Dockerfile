@@ -5,6 +5,7 @@ RUN apk add --update jq curl make bash \
 
 RUN pip install awscli
 RUN pip install cfn-lint
+RUN pip install awscurl
 
 ENV DOCKER_VERSION "18.06.1-ce"
 RUN wget -q -P /tmp https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz \
